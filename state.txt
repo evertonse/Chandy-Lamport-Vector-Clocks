@@ -1,0 +1,11 @@
+(P2) state:[0, 0, 2]
+channel[2<-0] final state nº msg's:0 
+channel[2<-1] final state nº msg's:0 
+(P0) state:[2, 0, 0]
+channel[0<-1] final state nº msg's:1 
+	msg[0] from:1 to:0 clock:[0, 1, 0]
+channel[0<-2] final state nº msg's:1 
+	msg[0] from:2 to:0 clock:[0, 0, 2]
+(P1) state:[2, 2, 0]
+channel[1<-0] final state nº msg's:0 
+channel[1<-2] final state nº msg's:0 
